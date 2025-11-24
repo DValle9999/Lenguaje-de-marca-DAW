@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 41</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Dario Valle">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+    <link rel="icon" sizes="64x64" href="./assets/img/pop-cat-empty.ico">
+</head>
+<body>
+    <h2>Informacion sobre el producto</h2>
+    <form>
+        <fieldset>
+            <legend>Datos basicos</legend>
+            Nombre <br>
+            <input type="text"><br><br>
+            Descripcion <br>
+            <textarea name="Descripcion" cols="50" rows="7"></textarea><br><br>
+            Foto <input type="file"><br><br>
+            <input type="checkbox"> Añadir contador de visitas
+        </fieldset><br>
+        <fieldset>
+            <legend>Datos economicos</legend>
+            Precio <input type="text" style="width: 15%;"> euros
+            &nbsp; &nbsp; &nbsp;
+            Impuestos <select name="Impuestos">
+                <option value="4%">4%</option>
+                <option value="7%">7%</option>
+                <option value="16%">16%</option>
+                <option value="25%">25%</option>
+            </select><br><br>
+            Promocion <br>
+            <input type="radio" name="Promocion" value="Ninguno"> Ninguno <br>
+            <input type="radio" name="Promocion" value="Transporte gratuito"> Transporte gratuito <br>
+            <input type="radio" name="Promocion" value="Descuento"> Descuento 5%<br>
+
+        </fieldset>
+    </form>
+</body>
+</html>
